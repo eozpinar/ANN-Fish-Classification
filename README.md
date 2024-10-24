@@ -1,6 +1,6 @@
 ## Artificial Neural Network for Fish Species Classification
 
-This project demonstrates how to use an Artificial Neural Network (ANN) to classify different fish species based on given features. We utilize a dataset that contains several features of fish and train a neural network to predict the species accurately.
+This project demonstrates how to use an Artificial Neural Network (ANN) to classify different fish species based on given features. We utilize a dataset that contains several features of fish and train a neural network to predict the species accurately. You can find notebook in kaggle: https://www.kaggle.com/code/izmacar/ann-fish
 
 ## Project Overview
 
@@ -82,3 +82,5 @@ Data augmentation: Implementing techniques to augment the dataset for better gen
 ## Acknowledgments
 
 Special thanks to Kaggle for hosting the dataset and providing a platform to run this project.
+
+
