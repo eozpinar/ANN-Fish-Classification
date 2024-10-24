@@ -1,17 +1,23 @@
-#Artificial Neural Network for Fish Species Classification#
+##Artificial Neural Network for Fish Species Classification
+
 This project demonstrates how to use an Artificial Neural Network (ANN) to classify different fish species based on given features. We utilize a dataset that contains several features of fish and train a neural network to predict the species accurately.
-Project Overview
+
+##Project Overview
+
 The goal of this project is to classify fish species based on their characteristics using an Artificial Neural Network (ANN). We utilize the dataset provided in the project and preprocess the data before feeding it into a neural network model for training and evaluation.
 
-#Dataset#
+##Dataset
+
 You can find the dataset in the Kaggle.
 https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
 
-#Project Structure#
+##Project Structure
+
 ann-fish.ipynb: The Jupyter Notebook that contains the full implementation of the ANN model, from data preprocessing to model evaluation.
 README.md: Project overview, instructions, and explanations.
 
-#Requirements#
+##Requirements
+
 To run this project, you will need the following Python libraries:
 import numpy as np
 import pandas as pd
@@ -33,7 +39,8 @@ from tensorflow.keras.models import Sequential
 
 To run the code, install the required libraries.
 
-#Project Steps#
+##Project Steps
+
 1. Importing Essential Libraries
 We import the essential libraries to practice this task. Such libraries are numpy, tensorflow, pandas, matplotlib, seaborn, sklearn etc.
 2. Data Loading and Preprocessing
@@ -55,16 +62,23 @@ Visualizations are provided to show the model's performance, accuracy trends, an
 7. Conclusion
 The trained ANN model effectively classifies the fish species, and the evaluation metrics show the accuracy achieved. Further fine-tuning of the model and feature engineering can be applied to improve the results.
 
-#Running the Project#
+##Running the Project
+
 Clone the repository.
 Install the required libraries.
 Open the ann-fish.ipynb notebook and run the cells to train and evaluate the ANN model.
-#Results#
+
+##Results
+
 The model achieves an accuracy of around %97 on the test data. Below are some of the results visualized during the analysis:
 Accuracy and loss plots during training.
 Confusion matrix showing the classification results for the fish species.
-#Future Improvements#
+
+##Future Improvements
+
 Hyperparameter tuning: Exploring different learning rates, optimizers, and batch sizes to improve performance.
 Data augmentation: Implementing techniques to augment the dataset for better generalization.
-#Acknowledgments#
+
+##Acknowledgments
+
 Special thanks to Kaggle for hosting the dataset and providing a platform to run this project.
